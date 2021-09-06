@@ -1,0 +1,42 @@
+
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+M
+java:S6126 "2Replace this String concatenation with Text block.(ùƒ÷ûÿÿÿÿÿ
+M
+java:S61269"2Replace this String concatenation with Text block.(ëÆ™üÿÿÿÿ
+H
+java:S6126Q"2Replace this String concatenation with Text block.(©¸­ó
+H
+java:S6126h"2Replace this String concatenation with Text block.(©¸­ó
+«
+java:S1192;"Define a constant instead of duplicating this literal "INNER JOIN ers_reimbursement_type ert ON er.reimb_type_id = ert.reimb_type_id
+" 3 times.(ÁÑ‹Èùÿÿÿÿ
+¯
+java:S1192:"“Define a constant instead of duplicating this literal "INNER JOIN ers_reimbursement_status ers ON er.reimb_status = ers.reimb_status_id 
+" 3 times.(ÔÂÀŒûÿÿÿÿ
+
+java:S1192 "‚Define a constant instead of duplicating this literal "SELECT er.reimb_id, er.reimb_amt, er.reimb_submitted, er.reimb_resolved, er.reimb_description, er.reimb_author , er.reimb_resolver , ers.reimb_status, ert.reimb_type FROM ers_reimbursement er 
+" 4 times.(ùƒ÷ûÿÿÿÿÿ
+k	java:S117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©İİ®ıÿÿÿÿ
+g	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áá
+e
+java:S2095="OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+f
+java:S2095™"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095l"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+k
+java:S2095Š"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.( îçøÿÿÿÿ
+f
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’âö
+f
+java:S2095€"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095&"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+k
+java:S2095£"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.( îçøÿÿÿÿ
+f
+java:S2095…"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’âö

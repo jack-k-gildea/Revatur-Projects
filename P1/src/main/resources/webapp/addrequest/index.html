@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styling/employeeRequest.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            Employee Reimbursement Application - Employee Add Request
+          </a>
+          <button class = "btn btn-secondary" id = "back">Go Back</button>
+        </div>
+      </nav>
+
+      <div class = "form-container">
+        <form id = "request-form">
+          <div>
+            <input type="text" id="amount" placeholder="Reimbursement Amount"/>
+          </div>
+          <div>
+            <input type="text" id="description" placeholder="Description of Reimbursement"/>
+          </div>
+          <div id = "type-head">Select Reimbursement Type:</div>
+          <div>
+            <input class = "options" type="radio" id="lodging" name="reimbType" value="1">
+            <label for="lodging">Lodging</label>
+          </div>
+          <div>
+            <input class = "options" type="radio" id="travel" name="reimbType" value="2">
+            <label for="travel">Travel</label>
+          </div>
+          <div>
+            <input class = "options" type="radio" id="food" name="reimbType" value="3">
+            <label for="food">Food</label>
+          </div>
+          <div>
+            <input class = "options" type="radio" id="other" name="reimbType" value="4">
+            <label for="other">Other</label>
+          </div>
+          <div>
+            <button id="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+
+      <script src="../scripts/global.js"></script>
+      <script src="../scripts/employeeRequest.js"></script>
+</body>
+</html>

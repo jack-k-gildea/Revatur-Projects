@@ -1,0 +1,36 @@
+body{
+    background-color: tan;
+}
+
+#login-form{
+    margin-top: 200px;
+    width: 350px;
+    background-color:rgb(194, 194, 194);
+    padding: 15px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+#login-form div{
+    margin: 10px;
+}
+
+.login-container{
+display: flex;
+justify-content: space-evenly;
+}
+
+#username, #password{
+width: 100%;
+padding: 3px;
+}
+
+#login-btn{
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 3px;
+}
+
+#login-btn:hover{
+    transition: 0.5s;
+    background-color: darkgrey;
+}

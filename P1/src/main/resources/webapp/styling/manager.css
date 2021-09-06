@@ -1,0 +1,57 @@
+body{
+    background-color: tan;
+}
+
+.info{
+    display: inline-block;
+    width: 11.5%;
+    text-align: center;
+}
+
+#description{
+    margin: 30px;
+}
+
+.reimbursementG{
+    background-color: rgba(0, 128, 0, 0.349);
+    width:100%;
+}
+
+.reimbursementR{
+    background-color: rgba(255, 0, 0, 0.281);
+    width:100%;
+}
+
+.reimbursementY{
+    background-color: rgba(255, 255, 0, 0.356);
+    width:100%;
+}
+
+.requestContainer{
+    width:100%;
+}
+
+.header{
+    display: inline-block;
+    width: 11.3%;
+    text-align:center;
+    font-weight: bold;
+}
+
+#info-bar{
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+#Reimbursement{
+    min-width: 1500px;
+}
+
+#dbuttons{
+    margin: 2px;
+}
+
+#abuttons{
+    margin:2px;
+}

@@ -1,0 +1,17 @@
+
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+M
+java:S61267"2Replace this String concatenation with Text block.(ëÆ™üÿÿÿÿ
+„
+java:S4087U"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(…¤© ÿÿÿÿÿ8åñ’ù¸/
+„
+java:S4087h"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(…¤© ÿÿÿÿÿ8ı¯“ù¸/
+e
+java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095O"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095;"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095#"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
